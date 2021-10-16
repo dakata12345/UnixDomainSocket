@@ -7,10 +7,7 @@ package main;
 
 import client.UnixSocketClient;
 import java.io.IOException;
-import java.net.StandardProtocolFamily;
 import java.net.UnixDomainSocketAddress;
-import java.nio.channels.ServerSocketChannel;
-import java.nio.channels.SocketChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import server.UnixSocketServer;
